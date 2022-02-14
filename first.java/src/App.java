@@ -45,9 +45,22 @@ class Main {
   public static void printData(String name, int age) {
     System.out.println("私の名前は" + name + "です");
     // 「年齢は◯◯歳です」と出力してください
-    System.out.println("年齢は" +age+ "歳です");
-    
+    System.out.println("年齢は" + age + "歳です");
+
   }
+  
+public class Main {
+	public static void main(String[] args) {
+		System.out.println("hello, world!");
+		int x=5;
+		int y=10;
+		int z=x+y;
+		String message ="x+yは"+z;
+		System.out.println(message);
+	}
+}
+
+
 
 
 }
