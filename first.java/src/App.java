@@ -63,6 +63,20 @@ public class Main {
         a++;
         System.out.println(a);
 
+        System.out.println("ようこそ占いの館へ");
+        System.out.println("あなたの名前を表示してください");
+        String name = new java.util.scanner(System.in).nextLine();
+        System.out.println("貴方の年齢を入力してください");
+        String ageString = new java.util.scanner(System.in).nextLine();
+        //Int age = (int) ageString;
+        int age = Interger.parseInt(ageString);
+        int fortune = new java.util.Random().nextInt(3);
+        fortune++;
+        System.out.println("占いの結果が出ましさんた ！");
+        System.out.println(age + "歳の" + name + "さん、あなたの運気番号は" + fortune + "です");
+
+
+
 
 	}
 }
