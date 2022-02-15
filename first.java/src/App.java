@@ -56,7 +56,14 @@ public class Main {
 		int y=10;
 		int z=x+y;
 		String message ="x+yは"+z;
-		System.out.println(message);
+        System.out.println(message);
+    
+        int a;
+        a = 100;
+        a++;
+        System.out.println(a);
+
+
 	}
 }
 
