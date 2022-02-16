@@ -75,8 +75,15 @@ public class Main {
         System.out.println("占いの結果が出ましさんた ！");
         System.out.println(age + "歳の" + name + "さん、あなたの運気番号は" + fortune + "です");
 
-
-
+        //練習問題３
+        int isHungry = 0;
+        String food = "パスタ";
+        System.out.println("こんにちは");
+        if (isHungry==0){
+          System.out.println("おなかがいっぱいです");
+        }else{
+          System.out.println(food +"をいただきます");
+        }
 
 	}
 }
